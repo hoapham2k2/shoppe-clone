@@ -5,7 +5,6 @@
 }
 
 *{
-
     box-sizing: inherit;
 }
 
@@ -17,8 +16,9 @@ html{
 }
 
 .grid{
-    width: 1500px;
+    width: 1450px;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .grid__full-width{
@@ -28,4 +28,15 @@ html{
 .grid__row{
     display: flex;
     flex-wrap: wrap;
+}
+
+/* animation */
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
